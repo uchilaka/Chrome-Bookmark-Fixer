@@ -1,0 +1,11 @@
+{
+  "name": "google-chrome-bookmark-fixer",
+  "dependencies": {
+    "angular": "^1.6.2",
+    "angular-route": "^1.6.2",
+    "angular-sanitize": "^1.6.2",
+    "semantic": "semantic-ui#^2.2.7",
+    "jquery-1.12.4": "jquery#1.12.4",
+    "sjcl": "^1.0.6"
+  }
+}

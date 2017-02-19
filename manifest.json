@@ -1,0 +1,36 @@
+{
+    "manifest_version": 2,
+    "name": "Google Chrome Bookmark Fixer",
+    "description": "This extension helps you browse and restore your Chrome extensions from your system .BAK file.",
+    "version": "0.0.1",
+    "icons": {
+        "16": "icon@16px.png",
+        "48": "icon@48px.png",
+        "128": "icon@128px.png"
+    },
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html",
+        "default_title": "Get started restoring your Google Chrome bookmarks from .BAK"
+    },
+    "web_accessible_resources": [
+        "js/*",
+        "bower/*",
+        "css/*",
+        "views/*.html",
+        "*.png",
+        "img/*"
+    ],
+    "permissions": [
+        "tabs",
+        "http://*/*",
+        "https://*/*",
+        "<all_urls>",
+        "notifications",
+        "activeTab",
+        "https://ajax.googleapis.com/",
+        "storage",
+        "unlimitedStorage"
+    ],
+    "content_security_policy": "script-src 'self' https://storage.googleapis.com https://ssl.google-analytics.com https://apis.google.com https://fonts.googleapis.com https://connect.facebook.net https://graph.facebook.com 'sha256-poVMD5VXXWcALHrxui2J+42/kq0w/CwJ/IlAo8RfQYg='; object-src 'self'"
+}
