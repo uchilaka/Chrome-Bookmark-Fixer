@@ -115,8 +115,9 @@ angular.module('BookmarkFixer', [
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
 <TITLE>Bookmarks</TITLE>
 <H1>Bookmarks</H1>
+<DL>
                         `
-                        , footer = `<!-- End of document -->`;
+                        , footer = `</DL><!-- End of document -->`;
 
                     // Append header
                     DocHTML += header;
