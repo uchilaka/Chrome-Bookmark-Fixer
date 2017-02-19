@@ -38,6 +38,18 @@
 
     <div ng-view></div>
 
+    <script type="text/ng-template" id="bookmarkFileHeader.htm">
+        <!DOCTYPE NETSCAPE-Bookmark-file-1>
+        <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+        <TITLE>Bookmarks</TITLE>
+        <H1>Bookmarks</H1>
+        <DL>
+    </script>
+
+    <script type="text/ng-template" id="bookmarkLinkItem.htm">
+        <A HREF="{{ link.url }}" ADD_DATE="{{ link.ADD_DATE }}">{{ link.content }}</A>
+    </script>
+
     <script src="/bower/jquery-1.12.4/dist/jquery.min.js"></script>
     <script src="/bower/semantic/dist/semantic.min.js"></script>
     <script src="/bower/angular/angular.min.js"></script>
